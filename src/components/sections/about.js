@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['TypeScript', 'Node.js', 'Docker', 'Python', 'React', 'Angular', 'Redux', 'RxJS'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +141,24 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>I'm a full-stack software engineer based in the Philippines.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Equally skilled in software engineering and engineering management, my software
+              projects succeed because I remain focused on achieving milestones while ensuring
+              proper management and engineering practices are being done.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              After graduating from the{' '}
+              <a href="https://upd.edu.ph/" target="_blank" rel="noopener noreferrer">
+                University of the Philippines Diliman
+              </a>
+              , I joined the engineering team at{' '}
+              <a href="https://www.freelancer.com/" target="_blank" rel="noopener noreferrer">
+                Freelancer.com
+              </a>{' '}
+              where I work on a wide variety of applications and microservices.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

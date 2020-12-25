@@ -1,16 +1,16 @@
 {
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "Web Portfolio",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Adel Ismael Mandanas",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "git+https://github.com/amndns/web-portfolio.git"
   },
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

@@ -123,6 +123,7 @@ const StyledTabContent = styled.div`
   height: auto;
   padding-top: 10px;
   padding-left: 30px;
+  pointer-events: none;
 
   @media (max-width: 768px) {
     padding-left: 20px;
@@ -264,7 +265,11 @@ const Jobs = () => {
                     <span>{title}</span>
                     <span className="company">
                       &nbsp;@&nbsp;
-                      <a href={url} className="inline-link">
+                      <a
+                        href={url}
+                        className="inline-link"
+                        target="_blank"
+                        rel="noopener noreferrer">
                         {company}
                       </a>
                     </span>
