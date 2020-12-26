@@ -71,7 +71,7 @@ const StyledProject = styled.div`
     margin-bottom: 35px;
 
     .folder {
-      color: var(--green);
+      color: var(--blue);
       svg {
         width: 40px;
         height: 40px;
@@ -186,7 +186,7 @@ const Projects = () => {
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+        View the Archive
       </Link>
 
       <TransitionGroup className="projects-grid">
