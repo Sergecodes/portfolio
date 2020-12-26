@@ -2,6 +2,9 @@
 date: '1'
 title: 'UPD Mobile'
 cover: './demo.png'
+github: ''
+ios: 'https://itunes.apple.com/ph/app/upd-mobile/id1443763130'
+android: 'https://play.google.com/store/apps/details?id=com.upmobile'
 external: 'https://www.facebook.com/updmobile'
 tech:
   - React Native
