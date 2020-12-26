@@ -1,5 +1,5 @@
 ---
-date: '2018-06-01'
+date: '3'
 title: 'Software Engineer Intern'
 company: 'Freelancer.com'
 location: 'Manila, Philippines'

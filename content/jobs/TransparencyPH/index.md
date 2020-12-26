@@ -1,5 +1,5 @@
 ---
-date: '2017-06-01'
+date: '1'
 title: 'Web Developer'
 company: 'Transparency.ph'
 location: 'Manila, Philippines'

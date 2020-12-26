@@ -1,5 +1,5 @@
 ---
-date: '2018-06-04'
+date: '6'
 title: 'Director for Engineering'
 company: 'UP CSI'
 location: 'Manila, Philippines'

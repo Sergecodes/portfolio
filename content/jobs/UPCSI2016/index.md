@@ -1,5 +1,5 @@
 ---
-date: '2018-06-02'
+date: '4'
 title: 'Software Engineer'
 company: 'UP CSI'
 location: 'Manila, Philippines'

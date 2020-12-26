@@ -1,5 +1,5 @@
 ---
-date: '2017-08-01'
+date: '2'
 title: 'Co-Founder and Mobile Developer'
 company: 'UPD Mobile'
 location: 'Manila, Philippines'
