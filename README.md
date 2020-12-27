@@ -10,8 +10,8 @@
   <a href="https://github.com/amndns/web-portfolio/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
   </a>
-  <a href="https://app.netlify.com/sites/web-portfolio/deploys" target="_blank">
-    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/8f2e78cd-6dd0-4da0-b435-0a54c4af10c4/deploy-status" />
+  <a href="https://app.netlify.com/sites/amandanas/deploys" target="_blank">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/61000252-48c2-46e6-baf3-e59c7339cc32/deploy-status" />
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 
 ## ✨ Features
 
-Visit the portfolio at [adelmandanas.netlify.app](https://adelmandanas.netlify.app/)
+Visit the portfolio at [amandanas.netlify.app](https://amandanas.netlify.app/)
 
 - You can see my work experiences and skills.
 - You can see my featured and archived projects.

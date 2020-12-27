@@ -9,7 +9,7 @@ module.exports = {
     title: 'Adel Mandanas',
     description:
       'Adel Mandanas is a software engineer capable of building highly-scalable single-page applications and backend services.',
-    siteUrl: 'https://adelmandanas.netlify.app', // No trailing slash allowed!
+    siteUrl: 'https://amandanas.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
