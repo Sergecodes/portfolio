@@ -1,66 +1,66 @@
-**Forked from [brittanychiang.com](https://brittanychiang.com)**
+<h1 align="center">Web Portfolio</h1>
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/amndns/web-portfolio/blob/master/README.md" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/amndns/web-portfolio/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/amndns/web-portfolio/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
+  </a>
+  <a href="https://app.netlify.com/sites/web-portfolio/deploys" target="_blank">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/8f2e78cd-6dd0-4da0-b435-0a54c4af10c4/deploy-status" />
+  </a>
+</p>
 
-## 🚨 Forking this repo (please read!)
+> The first iteration of my personal website. This project is a modified version of the original one created and designed by [Brittany Chiang](https://github.com/bchiang7/v4).
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+<p align="center">
+  <img width="720" align="center" src="src/images/demo.png" alt="demo"/>
+</p>
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## ✨ Features
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+Visit the portfolio at [adelmandanas.netlify.app](https://adelmandanas.netlify.app/)
 
-### TL;DR
+- You can see my work experiences and skills.
+- You can see my featured and archived projects.
+- You can contact me through the website.
+- You can download my resumé.
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Give a ⭐️ if you loved this version of the project!
 
-## 🛠 Installation & Set Up
+## 🛠 Built With
 
-1. Install the Gatsby CLI
+- [Gatsby React](https://www.gatsbyjs.com/) - Frontend
+- [Brittany Chiang](https://github.com/bchiang7/v4) - Theme Template
+- [Anime.js](https://animejs.com/) - Animations
 
-   ```sh
-   npm install -g gatsby-cli
-   ```
+## 🚀 Get Started
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+This project was forked from Brittany Chiang's [v4 Portfolio](https://github.com/bchiang7/v4).
 
-   ```sh
-   nvm install
-   ```
+Below is a guide on the common commands you might use all throughout the development process. In the project directory, you can run:
 
-3. Install dependencies
+#### `yarn install`
 
-   ```sh
-   yarn
-   ```
+Installs all package dependencies of the app. Make sure you have [yarn](https://yarnpkg.com/) installed and configured first.
 
-4. Start the development server
+#### `yarn develop`
 
-   ```sh
-   npm start
-   ```
+Runs the app in development mode. Open [http://localhost:8000](http://localhost:8000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-## 🚀 Building and Running for Production
+#### `yarn format`
 
-1. Generate a full static production build
+Launches the linter and prettier formatter against all of the `.js` and `.jsx` files from the `src/` directory. The project specifically uses [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) as the linter and code formatter, respectively.
 
-   ```sh
-   npm run build
-   ```
+## 📝 License
 
-1. Preview the site as it will appear once deployed
+Copyright © 2018 [Brittany Chiang](https://github.com/bchiang7).<br />
+This project is [MIT](https://github.com/amndns/web-portfolio/blob/master/LICENSE) licensed.
 
-   ```sh
-   npm run serve
-   ```
 
-## 🎨 Color Reference
-
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#172a45](https://via.placeholder.com/10/0a192f?text=+) `#172a45` |
-| Lightest Navy  | ![#303C55](https://via.placeholder.com/10/303C55?text=+) `#303C55` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
