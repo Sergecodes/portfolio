@@ -7,7 +7,7 @@ tech:
   - Arduino
   - Electronics
   - Ruby on Rails
-company: 'UP Diliman'
+company: 'P&G Hackathon'
 showInProjects: true
 ---
 

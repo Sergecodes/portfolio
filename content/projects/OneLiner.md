@@ -11,4 +11,4 @@ company: UP CSI
 showInProjects: true
 ---
 
-OneLiner is a smart queueing network that brings line managers into a single online platform, optimizing how services and products are exchanged.
+An online smart queueing network that brings line managers into a single online platform, optimizing how services and products are exchanged.
