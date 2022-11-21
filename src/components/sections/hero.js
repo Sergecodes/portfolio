@@ -47,13 +47,14 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Adel Mandanas.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = <h1>Hi, I am</h1>;
+  const two = <h2 className="big-heading">Serge Durand.</h2>;
+  const three = <h3 className="big-heading">I build things using code.</h3>;
   const four = (
     <p>
-      I'm a software engineer based in the Philippines capable of building highly-scalable
-      single-page applications and backend services.
+      I'm a full stack django and javascript developer capable of building highly-scalable and
+      robust applications and backend services including API and microservices that run in the
+      cloud.
     </p>
   );
   const five = (

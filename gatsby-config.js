@@ -6,11 +6,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Adel Mandanas',
+    title: 'Serge Durand',
     description:
-      'Adel Mandanas is a software engineer capable of building highly-scalable single-page applications and backend services.',
-    siteUrl: 'https://amandanas.netlify.app', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+      'Serge Durand is a software engineer capable of building highly-scalable single-page applications and backend services.',
+    siteUrl: 'https://sergedurand.vercel.app', // No trailing slash allowed!
+    image: '/favicon.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,13 +22,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'AdelMandanas',
-        short_name: 'AdelMandanas',
+        name: 'Serge Durand',
+        short_name: 'SergeDurand',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png',
+        icon: 'src/images/favicon.png',
       },
     },
     `gatsby-plugin-offline`,

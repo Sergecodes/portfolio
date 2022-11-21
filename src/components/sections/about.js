@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['TypeScript', 'Node.js', 'Docker', 'Python', 'React', 'Angular', 'Redux', 'RxJS'];
+  const skills = ['Django', 'Node.js', 'Reactjs', 'TypeScript', 'Docker', 'SQL', 'NoSQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,24 +141,30 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>I'm a full-stack software engineer based in the Philippines.</p>
+            <p>
+              I'm a full-stack web developer and software engineer, fluent in both English and
+              French.
+            </p>
 
             <p>
-              Equally skilled in software engineering and engineering management, my software
-              projects succeed because I remain focused on achieving milestones while ensuring
-              proper management and engineering practices are being done.
+              Equally skilled in software engineering and project management, my software projects
+              succeed because I remain focused on achieving milestones while ensuring proper
+              management and engineering practices are being done.
             </p>
 
             <p>
               After graduating from the{' '}
-              <a href="https://upd.edu.ph/" target="_blank" rel="noopener noreferrer">
-                University of the Philippines Diliman
+              <a href="https://uninet.uy1.cm/" target="_blank" rel="noopener noreferrer">
+                University of Yaounde 1
               </a>
               , I joined the engineering team at{' '}
-              <a href="https://www.freelancer.com/" target="_blank" rel="noopener noreferrer">
-                Freelancer.com
+              <a
+                href="https://www.techniqconsulting.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                Techniqconsulting.com
               </a>{' '}
-              where I work on a wide variety of applications and microservices.
+              where I worked on a wide variety of applications and microservices. <br />
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

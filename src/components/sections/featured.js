@@ -102,7 +102,7 @@ const StyledProject = styled.div`
     }
 
     @media (max-width: 768px) {
-      color: var(--white);
+      /* color: var(--white); */
     }
   }
 
@@ -112,8 +112,10 @@ const StyledProject = styled.div`
     z-index: 2;
     padding: 25px;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
-    color: var(--light-slate);
+    /* background-color: var(--light-navy); */
+    background-color: #ccdae7;
+    /* color: var(--light-slate); */
+    color: var(--slate);
     font-size: var(--fz-lg);
 
     @media (max-width: 768px) {
@@ -226,21 +228,24 @@ const StyledProject = styled.div`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
+        /* background-color: var(--navy); */
+        background-color: lightslategray;
         mix-blend-mode: screen;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
+      /*
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1) brightness(90%);
+      */
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(80%);
+        /* filter: grayscale(100%) contrast(1) brightness(80%); */
       }
     }
   }
@@ -251,7 +256,7 @@ const Featured = () => {
     query {
       featured: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/featured/" } }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { fields: [frontmatter___id], order: ASC }
       ) {
         edges {
           node {
@@ -266,8 +271,6 @@ const Featured = () => {
               }
               tech
               github
-              ios
-              android
               external
             }
             html
@@ -296,7 +299,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, ios, android, cover } = frontmatter;
+            const { external, title, tech, github, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -319,7 +322,7 @@ const Featured = () => {
                         <Icon name="GitHub" />
                       </a>
                     )}
-                    {ios && (
+                    {/* {ios && (
                       <a href={ios} aria-label="Apple App Store Link">
                         <Icon name="AppStore" />
                       </a>
@@ -328,7 +331,7 @@ const Featured = () => {
                       <a href={android} aria-label="Google Play Store Link">
                         <Icon name="PlayStore" />
                       </a>
-                    )}
+                    )} */}
                     {external && (
                       <a href={external} aria-label="External Link" className="external">
                         <Icon name="External" />

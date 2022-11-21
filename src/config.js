@@ -1,19 +1,19 @@
 module.exports = {
-  email: 'mandanas.adel@gmail.com',
+  email: 'sergedurand205@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/amndns',
+      url: 'https://github.com/Sergecodes',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/amndns',
+      url: 'https://www.linkedin.com/in/serge-durand-6478b3209',
     },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/mandanasadel',
-    },
+    // {
+    //   name: 'Instagram',
+    //   url: 'https://www.instagram.com/mandanasadel',
+    // },
   ],
 
   navLinks: [

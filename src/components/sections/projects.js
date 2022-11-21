@@ -62,7 +62,8 @@ const StyledProject = styled.div`
     height: 100%;
     padding: 2rem 1.75rem;
     border-radius: var(--border-radius);
-    background-color: var(--light-navy);
+    /* background-color: var(--light-navy); */
+    background-color: #ccdae7;
     transition: var(--transition);
   }
 
@@ -111,7 +112,8 @@ const StyledProject = styled.div`
   }
 
   .project-description {
-    color: var(--light-slate);
+    /* color: var(--light-slate); */
+    color: var(--slate);
     font-size: 17px;
 
     a {
@@ -148,7 +150,7 @@ const Projects = () => {
           fileAbsolutePath: { regex: "/projects/" }
           frontmatter: { showInProjects: { ne: false } }
         }
-        sort: { fields: [frontmatter___date], order: DESC }
+        sort: { fields: [frontmatter___id], order: ASC }
       ) {
         edges {
           node {

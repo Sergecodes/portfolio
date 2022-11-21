@@ -1,12 +1,12 @@
 {
-  "name": "web-portfolio",
+  "name": "portfolio",
   "description": "Web Portfolio",
   "version": "1.0.0",
-  "author": "Adel Ismael Mandanas",
+  "author": "Serge Durand",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amndns/web-portfolio.git"
+    "url": "git+https://github.com/Sergedoces/portfolio.git"
   },
   "keywords": [
     "gatsby"

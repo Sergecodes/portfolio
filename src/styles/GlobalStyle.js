@@ -8,15 +8,21 @@ const GlobalStyle = createGlobalStyle`
 
   :root {
     --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #172a45;
-    --lightest-navy: #303C55;
+    /* --navy: #0a192f; */
+    --navy: ghostwhite;
+    /* --light-navy: #172a45; */
+    --light-navy: #ecebeb; 
+    /* --lightest-navy: #303C55; */
+    --lightest-navy: whitesmoke;
     --navy-shadow: rgba(2, 12, 27, 0.7);
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    /* --slate: #8892b0; */
+    --slate: dimgray;
+    --light-slate: #858894;
+    /* --lightest-slate: #ccd6f6; */
+    --lightest-slate: #8e9098;
     --white: #e6f1ff;
-    --blue: #70d3ff;
+    /* --blue: #70d3ff; */
+    --blue: #3173ea;
     --blue-tint: rgba(112, 211, 255, 0.1);
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
@@ -61,8 +67,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
+    /*
     background-color: var(--slate);
     color: var(--lightest-slate);
+    */
+    background-color: var(--lightest-slate);
+    color: white;
   }
 
   body {
@@ -72,7 +82,9 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    /* background-color: var(--navy); */
+    /* background-color: aliceblue; */
+    background-color: #f0ffff;
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
@@ -211,7 +223,8 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--lightest-navy);
+      /* background-color: var(--lightest-navy); */
+      background-color: darkgray;
 
       @media (max-width: 1080px) {
         width: 200px;

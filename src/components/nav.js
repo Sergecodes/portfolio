@@ -7,6 +7,7 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection } from '@hooks';
 import { Menu } from '@components';
+import { IconLogo } from '@components/icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -16,7 +17,7 @@ const StyledHeader = styled.header`
   padding: 0px 50px;
   width: 100%;
   height: var(--nav-height);
-  background-color: var(--navy);
+  /* background-color: var(--navy); */
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -33,6 +34,7 @@ const StyledHeader = styled.header`
 
 const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexEnd};
+  justify-content: space-between;
   position: relative;
   width: 100%;
   color: var(--lightest-slate);
@@ -131,9 +133,25 @@ const Nav = ({ isHome }) => {
   const fadeClass = isHome ? 'fade' : '';
   const fadeDownClass = isHome ? 'fadedown' : '';
 
+  const Logo = (
+    <div className="logo" tabIndex="-1">
+      {isHome ? (
+        <a href="/" aria-label="home">
+          <IconLogo />
+        </a>
+      ) : (
+        <Link to="/" aria-label="home">
+          <IconLogo />
+        </Link>
+      )}
+    </div>
+  );
+
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
       <StyledNav>
+        {Logo}
+
         <StyledLinks>
           <ol>
             <TransitionGroup component={null}>

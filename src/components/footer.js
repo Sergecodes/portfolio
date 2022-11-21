@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+// import React, { useState, useEffect } from 'react';
+// import PropTypes from 'prop-types';
+import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
@@ -40,33 +41,54 @@ const StyledSocialLinks = styled.div`
   }
 `;
 
-const StyledCredit = styled.div`
-  color: var(--light-slate);
-  font-family: var(--font-mono);
-  font-size: var(--fz-xxs);
-  line-height: 1;
+// const StyledCredit = styled.div`
+//   color: var(--light-slate);
+//   font-family: var(--font-mono);
+//   font-size: var(--fz-xxs);
+//   line-height: 1;
 
-  a {
-    padding: 10px;
-  }
+//   a {
+//     padding: 10px;
+//   }
 
-  .github-stats {
-    margin-top: 10px;
+//   .github-stats {
+//     margin-top: 10px;
 
-    & > span {
-      display: inline-flex;
-      align-items: center;
-      margin: 0 7px;
-    }
-    svg {
-      display: inline-block;
-      margin-right: 5px;
-      width: 14px;
-      height: 14px;
-    }
-  }
-`;
+//     & > span {
+//       display: inline-flex;
+//       align-items: center;
+//       margin: 0 7px;
+//     }
+//     svg {
+//       display: inline-block;
+//       margin-right: 5px;
+//       width: 14px;
+//       height: 14px;
+//     }
+//   }
+// `;
 
+const Footer = () => (
+  <StyledFooter>
+    <StyledSocialLinks>
+      <ul>
+        {socialMedia &&
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+          ))}
+      </ul>
+    </StyledSocialLinks>
+  </StyledFooter>
+);
+
+export default Footer;
+
+{
+  /* 
 const Footer = () => {
   const [githubInfo, setGitHubInfo] = useState({
     stars: null,
@@ -128,6 +150,5 @@ const Footer = () => {
 
 Footer.propTypes = {
   githubInfo: PropTypes.object,
-};
-
-export default Footer;
+}; */
+}
