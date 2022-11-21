@@ -1,21 +1,22 @@
 <h1 align="center">Web Portfolio</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/amndns/web-portfolio/blob/master/README.md" target="_blank">
+  <a href="https://github.com/Sergecodes/portfolio/blob/master/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/amndns/web-portfolio/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/Sergecodes/portfolio/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/amndns/web-portfolio/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/Sergecodes/portfolio/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" />
   </a>
   <a href="https://app.netlify.com/sites/amandanas/deploys" target="_blank">
-    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/61000252-48c2-46e6-baf3-e59c7339cc32/deploy-status" />
+    <!-- ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=sergedurand) -->
+    <img alt="Vercel deploy" src="https://therealsujitk-vercel-badge.vercel.app/?app=sergedurand" />
   </a>
 </p>
 
-> The first iteration of my personal website. This project is a modified version of the original one created and designed by [Brittany Chiang](https://github.com/bchiang7/v4).
+<!-- > The first iteration of my personal website. This project uses this [theme](https://github.com/amndns/web-portfolio). -->
 
 <p align="center">
   <img width="720" align="center" src="src/images/demo.png" alt="demo"/>
@@ -23,24 +24,22 @@
 
 ## ✨ Features
 
-Visit the portfolio at [amandanas.netlify.app](https://amandanas.netlify.app/)
+Visit the portfolio at [serge.codes](https://www.serge.codes/)
 
 - You can see my work experiences and skills.
 - You can see my featured and archived projects.
 - You can contact me through the website.
-- You can download my resumé.
-
-Give a ⭐️ if you loved this version of the project!
+- You can view and download my resumé.
 
 ## 🛠 Built With
 
 - [Gatsby React](https://www.gatsbyjs.com/) - Frontend
-- [Brittany Chiang](https://github.com/bchiang7/v4) - Theme Template
-- [Anime.js](https://animejs.com/) - Animations
+- [Amandanas](https://github.com/amndns/web-portfolio) - Theme Template
+<!-- - [Anime.js](https://animejs.com/) - Animations -->
 
 ## 🚀 Get Started
 
-This project was forked from Brittany Chiang's [v4 Portfolio](https://github.com/bchiang7/v4).
+This project was forked from Amandanas's [Portfolio](https://github.com/amndns/web-portfolio).
 
 Below is a guide on the common commands you might use all throughout the development process. In the project directory, you can run:
 
@@ -59,8 +58,8 @@ Launches the linter and prettier formatter against all of the `.js` and `.jsx` f
 ## 📝 License
 
 Copyright © 2018 [Brittany Chiang](https://github.com/bchiang7).<br />
-This project is [MIT](https://github.com/amndns/web-portfolio/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/Sergecodes/portfolio/blob/main/LICENSE) licensed.
 
+---
 
-***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
