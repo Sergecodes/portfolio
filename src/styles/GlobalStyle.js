@@ -80,6 +80,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    position: absolute; /* without this, horizontal scroll is still seen on mobile */
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     /* background-color: var(--navy); */

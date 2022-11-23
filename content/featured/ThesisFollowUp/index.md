@@ -4,7 +4,7 @@ date: '2022-09-09'
 title: 'Thesis Follow Up'
 cover: './demo.png'
 github: 'https://github.com/Sergecodes/suivi-these'
-external: 'https://thesis-dhl.azurewebsites.net'
+external: 'https://edc-stg.online'
 tech:
   - MERN Stack
   - Ant Design

@@ -4,7 +4,7 @@ date: '2022-10-02'
 title: 'CS Portal'
 cover: './demo.png'
 github: ''
-external: 'https://camerschools.azurewebsites.net'
+external: 'https://camerschools.site'
 tech:
   - Python & Django
   - JavaScript, jQuery & Bootstrap
