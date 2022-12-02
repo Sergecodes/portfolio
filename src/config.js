@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/serge-durand-6478b3209',
+      url: 'https://www.linkedin.com/in/sergedurand205',
     },
     // {
     //   name: 'Instagram',
