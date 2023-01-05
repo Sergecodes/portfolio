@@ -5,6 +5,7 @@ title: 'CS Portal'
 cover: './demo.png'
 github: ''
 external: 'https://camerschools.site'
+youtube: 'https://youtu.be/6LdmxpaATBs'
 tech:
   - Python & Django
   - JavaScript, jQuery & Bootstrap

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
@@ -180,6 +181,14 @@ const StyledProject = styled.div`
         }
       }
 
+      &.youtube {
+        svg {
+          width: 30px;
+          height: 30px;
+          margin-top: -4px;
+        }
+      }
+
       svg {
         width: 20px;
         height: 20px;
@@ -272,6 +281,7 @@ const Featured = () => {
               tech
               github
               external
+              youtube
             }
             html
           }
@@ -299,7 +309,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, youtube, title, tech, github, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -318,22 +328,31 @@ const Featured = () => {
 
                   <div className="project-links">
                     {github && (
-                      <a href={github} aria-label="GitHub Link">
+                      <a target="_blank" href={github} aria-label="GitHub Link">
                         <Icon name="GitHub" />
                       </a>
                     )}
                     {/* {ios && (
-                      <a href={ios} aria-label="Apple App Store Link">
+                      <a target="_blank" href={ios} aria-label="Apple App Store Link">
                         <Icon name="AppStore" />
                       </a>
                     )}
                     {android && (
-                      <a href={android} aria-label="Google Play Store Link">
+                      <a target="_blank" href={android} aria-label="Google Play Store Link">
                         <Icon name="PlayStore" />
                       </a>
                     )} */}
+                    {youtube && (
+                      <a target="_blank" href={youtube} aria-label="Demo" className="youtube">
+                        <Icon name="YouTube" />
+                      </a>
+                    )}
                     {external && (
-                      <a href={external} aria-label="External Link" className="external">
+                      <a
+                        target="_blank"
+                        href={external}
+                        aria-label="External Link"
+                        className="external">
                         <Icon name="External" />
                       </a>
                     )}
@@ -341,7 +360,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a target="_blank" href={external ? external : github ? github : '#'}>
                     <Img fluid={cover.childImageSharp.fluid} alt={title} className="img" />
                   </a>
                 </div>

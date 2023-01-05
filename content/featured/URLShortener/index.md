@@ -5,13 +5,13 @@ title: 'URL Shortener'
 cover: './demo.png'
 github: 'https://github.com/Sergecodes/url-shortener'
 external: 'https://tinyy.ink'
+youtube: 'https://youtu.be/xX9J4LlkRI8'
 tech:
-  - Python & Django
+  - Python/Django
   - Redis
   - TailwindCSS
   - Charts.js
   - PostgreSQL
-  - UML
 company: 'Personal'
 showInProjects: false
 ---

@@ -132,7 +132,15 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Django', 'Node.js', 'Reactjs', 'TypeScript', 'Docker', 'SQL', 'NoSQL'];
+  const skills = [
+    'Python',
+    'Django',
+    'JavaScript',
+    'TypeScript',
+    'MERN Stack',
+    'Docker',
+    'SQL/NoSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -142,29 +150,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm a full-stack web developer and software engineer, fluent in both English and
-              French.
+              Pragmatic and experienced software engineer who is well-versed in technology and
+              writing code to create reliable and user-friendly systems. I'm also a skilled leader
+              who has proven the ability to educate and manage a team of professionals to build
+              software, while improving and learning from fellow collaborators.
             </p>
 
             <p>
-              Equally skilled in software engineering and project management, my software projects
-              succeed because I remain focused on achieving milestones while ensuring proper
-              management and engineering practices are being done.
-            </p>
-
-            <p>
-              After graduating from the{' '}
-              <a href="https://uninet.uy1.cm/" target="_blank" rel="noopener noreferrer">
-                University of Yaounde 1
-              </a>
-              , I joined the engineering team at{' '}
-              <a
+              After obtaining my Bachelor's degree in Computer Science, I joined the software
+              engineering team at{' '}
+              {/* <a
                 href="https://www.techniqconsulting.com/"
                 target="_blank"
                 rel="noopener noreferrer">
-                Techniqconsulting.com
-              </a>{' '}
-              where I worked on a wide variety of applications and microservices. <br />
+                Techniqconsulting
+              </a>{' '} */}
+              TechniqConsulting for an internship where I worked on a variety of software projects.{' '}
+              <br />
+              Also, i'm fluent in both English and French. <br />
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

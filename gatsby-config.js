@@ -8,8 +8,8 @@ module.exports = {
   siteMetadata: {
     title: 'Serge Durand',
     description:
-      'Serge Durand is a software engineer capable of building highly-scalable single-page applications and backend services.',
-    siteUrl: 'https://sergedurand.vercel.app', // No trailing slash allowed!
+      'Serge Durand is a software engineer capable of building highly-scalable and robust software systems.',
+    siteUrl: 'https://serge.codes', // No trailing slash allowed!
     image: '/favicon.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [

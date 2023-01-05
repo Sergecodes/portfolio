@@ -52,9 +52,8 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things using code.</h3>;
   const four = (
     <p>
-      I'm a full stack django and javascript developer capable of building highly-scalable and
-      robust applications and backend services including API and microservices that run in the
-      cloud.
+      I'm a software engineer and full stack developer capable of building highly scalable and
+      robust systems including API and microservices that run in the cloud.
     </p>
   );
   const five = (

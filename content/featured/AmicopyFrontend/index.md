@@ -6,7 +6,7 @@ cover: './demo.png'
 github: 'https://github.com/Sergecodes/amicopy'
 external: 'https://amicopy.vercel.app'
 tech:
-  - React & Nextjs
+  - React/Nextjs
   - TypeScript
   - TailwindCSS
   - ChakraUI
@@ -15,4 +15,4 @@ company: 'Personal'
 showInProjects: true
 ---
 
-A presentation website that showcases template home, pricing and auth pages for a copy-paste website. i.e a website that enables copying and pasting between multiple devices.
+A presentation website that showcases template home, pricing and authentication pages.
