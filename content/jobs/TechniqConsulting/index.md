@@ -8,5 +8,5 @@ url: 'https://www.techniqconsulting.com/'
 ---
 
 - Working on the implementation team, mostly developing clients' software projects using technologies depending on their specifications.
-- Aside from being a part of the implementation team, I was also responsible for choosing the technologies used for each project. Allocating suitable tech stacks for given projects led to a 2 times increase in the completion of projects.
-- Increased number of clients and user experience due to ability to communicate in both English and French.
+- Aside from being a part of the implementation team, I was also responsible for choosing the technologies used for each project. Allocating suitable tech stacks for projects led to them moving into production 1.5 times faster.
+- Thanks to my broad expertise, clients requirements were more easily understood and properly implemented. This led to a noticeable increase in customer satisfaction and hence customer base.

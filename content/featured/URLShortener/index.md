@@ -10,7 +10,7 @@ tech:
   - Python/Django
   - Redis
   - TailwindCSS
-  - Charts.js
+  - Chart.js
   - PostgreSQL
 company: 'Personal'
 showInProjects: false
