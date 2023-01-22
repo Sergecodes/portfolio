@@ -16,4 +16,4 @@ company: 'UY1'
 showInProjects: true
 ---
 
-A platform for my university to follow up and track the thesis of postgraduate students. I was the senior developer and led a team of 5 developers to execute this project.
+A platform for my university to follow up and track the thesis of postgraduate students. I was the senior developer and led a team of developers to execute this project.

@@ -153,11 +153,11 @@ const About = () => {
               Pragmatic and experienced software engineer who is well-versed in technology and
               writing code to create reliable and user-friendly systems. I'm also a skilled leader
               who has proven the ability to educate and manage a team of professionals to build
-              software, while improving and learning from fellow collaborators.
+              software.
             </p>
 
             <p>
-              After obtaining my Bachelor's degree in Computer Science, I joined the software
+              While doing my Bachelor's degree in Computer Science, I worked with the software
               engineering team at{' '}
               {/* <a
                 href="https://www.techniqconsulting.com/"
@@ -165,7 +165,7 @@ const About = () => {
                 rel="noopener noreferrer">
                 Techniqconsulting
               </a>{' '} */}
-              TechniqConsulting for an internship where I worked on a variety of software projects.{' '}
+              TechniqConsulting where I worked on a variety of software projects. There, I applied what I learned in school and also gained much professional experience.{' '}
               <br />
               Also, i'm fluent in both English and French. <br />
             </p>
