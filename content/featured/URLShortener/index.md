@@ -4,7 +4,7 @@ date: '2022-11-08'
 title: 'URL Shortener'
 cover: './demo.png'
 github: 'https://github.com/Sergecodes/url-shortener'
-external: 'https://tinyy.ink'
+# external: 'https://tinyy.ink'
 youtube: 'https://youtu.be/xX9J4LlkRI8'
 tech:
   - Python/Django

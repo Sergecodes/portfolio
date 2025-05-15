@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'contact@serge.codes',
+  email: 'sergedurand205@gmail.com',
 
   socialMedia: [
     {
@@ -10,10 +10,6 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/sergedurand205',
     },
-    // {
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/mandanasadel',
-    // },
   ],
 
   navLinks: [

@@ -133,13 +133,18 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Python',
-    'Django',
-    'JavaScript',
-    'TypeScript',
-    'MERN Stack',
+    'Java/Springboot',
+    'Python/Django',
+    'JavaScript/TypeScript',
+    'React/Nextjs',
+    'Node/Express/Nestjs',
+    'Team Leadership',
+    'Agile/Scrum',
+    'Software Testing',
+    'System Design',
     'Docker',
     'SQL/NoSQL',
+    'C#/.NET',
   ];
 
   return (
@@ -156,19 +161,19 @@ const About = () => {
               software.
             </p>
 
-            <p>
+            {/* <p>
               While doing my Bachelor's degree in Computer Science, I worked with the software
               engineering team at{' '}
-              {/* <a
+              <a
                 href="https://www.techniqconsulting.com/"
                 target="_blank"
                 rel="noopener noreferrer">
                 Techniqconsulting
-              </a>{' '} */}
+              </a>{' '}
               TechniqConsulting where I worked on a variety of software projects. There, I applied what I learned in school and also gained much professional experience.{' '}
               <br />
               Also, i'm fluent in both English and French. <br />
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>

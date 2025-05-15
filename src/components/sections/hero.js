@@ -53,7 +53,7 @@ const Hero = () => {
   const four = (
     <p>
       I'm a software engineer and full stack developer capable of building highly scalable and
-      robust systems including API and microservices that run in the cloud.
+      robust systems.
     </p>
   );
   const five = (
