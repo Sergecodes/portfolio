@@ -3,7 +3,7 @@ date: '1'
 title: 'Software Developer'
 company: 'TechniqConsulting'
 location: 'London, England'
-range: '2021 - 2022'
+range: 'January 2021 - March 2022'
 url: https://www.techniqconsulting.com
 ---
 

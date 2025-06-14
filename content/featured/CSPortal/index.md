@@ -1,10 +1,10 @@
 ---
 id: 2
 date: '2022-10-02'
-title: 'CS Portal'
+title: 'Student Hub'
 cover: './demo.png'
 github: ''
-# external: 'https://camerschools.site'
+external: 'https://camerschools.site'
 youtube: 'https://youtu.be/6LdmxpaATBs'
 tech:
   - Python/Django

@@ -3,7 +3,7 @@ date: '3'
 title: 'Fullstack Developer'
 company: 'House Innovation'
 location: 'Douala, Cameroon'
-range: '2023 - 2023'
+range: 'January 2023 - March 2023'
 url: https://houseinnovationgroup.com
 ---
 

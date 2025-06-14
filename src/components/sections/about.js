@@ -138,13 +138,13 @@ const About = () => {
     'JavaScript/TypeScript',
     'React/Nextjs',
     'Node/Express/Nestjs',
-    'Team Leadership',
+    'Docker/Kubernetes',
+    'SQL/NoSQL',
+    'PHP/Laravel',
     'Agile/Scrum',
+    'Team Leadership',
     'Software Testing',
     'System Design',
-    'Docker',
-    'SQL/NoSQL',
-    'C#/.NET',
   ];
 
   return (

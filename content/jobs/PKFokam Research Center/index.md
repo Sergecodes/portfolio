@@ -3,16 +3,30 @@ date: '4'
 title: 'Software Engineer & Backend Lead'
 company: 'PKFRC - Afriland First Bank'
 location: 'Yaoundé, Cameroon'
-range: '2023 - Present'
-url: https://pkfinstitute.com/research-center
+range: 'March 2023 - Present'
+url: https://www.afrilandfirstbank.com
 ---
 
-- Lead backend development team in the development of a Core Banking System
-- Work with design patterns such as api gateway, aggregator, saga/event sourcing, transactional outbox, CQRS.
-- Work with technologies such as Expressjs, Nestjs, Springboot, Axon, RabbitMQ, GraphQL, websockets, node-red
-- Implement feature flagging on customers with Unleash
-- Mentoring and coaching of junior developers and in technical interviewing of new recruits
-- Worked on microservices-based systems and multi-module based applications using Java/Springboot and related technologies
-- Implemented backend for Afriland First Bank(AFB) South Sudan's E-Banking web application - <strong>https://ebanking.afrilandfirstbankss.com</strong>
-- Implemented back office for AFB Ivory Coast's mobile banking application SARA - <strong>https://play.google.com/store/apps/details?id=com.icafbmobilebanking</strong> for third party's integrations
-- Implemented backend for partner microfinance institutions' mobile applications
+- Led backend development team of over 15 developers in building a modular, scalable Core Banking System, ensuring code quality and architectural consistency.
+
+- Provided technical mentorship and coaching to junior developers and participated in technical interviews for new hires.
+
+- Integrated feature flagging capabilities using Unleash to enable dynamic feature rollout per customer.
+
+- Applied Saga and Event sourcing for robust microservices orchestration using Axon framework to ensure financial operations integrity.
+
+- Implemented an Aggregator service to facilitate data retrieval from multiple entities in multiple services using NestJS and GraphQL Yoga.
+
+- Implemented an audit system to track important financial data during delicate read and write operations using the transactional outbox pattern with RabbitMQ and Postgres.
+
+- Designed and deployed Node-RED based configurable workflows, empowering banks to customize and automate their EOD/COB operational processes.
+
+- Worked on a real-time messaging and notifications system for bank employees, enhancing internal communication through Express.js and Socket.io over WebSockets.
+
+- Implemented a customer data storage solution based on MinIO, ensuring secure and compliant document management.
+
+- Developed the backend for Afriland First Bank South Sudan’s e-banking web application — <strong>https://ebanking.afrilandfirstbankss.com</strong>
+
+- Built the back-office system for AFB Ivory Coast’s mobile banking app SARA — <strong>https://play.google.com/store/apps/details?id=com.icafbmobilebanking</strong>
+
+- Implemented backend services for partner microfinance institutions' mobile apps, supporting financial inclusion across multiple jurisdictions such as CEMAC and UEMOA.
